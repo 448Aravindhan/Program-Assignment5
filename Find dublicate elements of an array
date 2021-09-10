@@ -1,0 +1,7 @@
+array=[1,2,3,4,5,2,3,4,7,9,5]
+array1=[]
+for i in array:
+    if i not in array1:
+        array1.append(i)
+    else:
+        print(i,end=' ')
